@@ -18,6 +18,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-stage-0": "^6.24.1",
     "buefy": "^0.6.5",
+    "flamelink": "^0.17.0",
     "node-sass": "^4.9.0",
     "nuxt": "1.0.0-rc11",
     "pug": "2.0.0-beta6",

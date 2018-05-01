@@ -12,7 +12,6 @@ import { getContext, getLocation } from './utils'
 import { createStore } from './store.js'
 import plugin0 from 'plugin0'
 
-
 // Component: <no-ssr>
 Vue.component(NoSSR.name, NoSSR)
 

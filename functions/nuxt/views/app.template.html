@@ -4,6 +4,21 @@
     {{ HEAD }}
   </head>
   <body {{ BODY_ATTRS }}>
+      <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/flamelink/dist/flamelink.js"></script>
+      <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyDC0_KRAL-bwZGAOm3_WDPYMHmq0A3w26g",
+            authDomain: "owacon-tokyo.firebaseapp.com",
+            databaseURL: "https://owacon-tokyo.firebaseio.com",
+            projectId: "owacon-tokyo",
+            storageBucket: "owacon-tokyo.appspot.com",
+            messagingSenderId: "565917541146"
+          };
+          const firebaseApp = firebase.initializeApp(config);
+          const app = flamelink({ firebaseApp })
+        </script>
     {{ APP }}
   </body>
 </html>

@@ -9,7 +9,6 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
-
 let layouts = {
 
   "_default": () => import('../../layouts/default.vue'  /* webpackChunkName: "layouts/default" */).then(m => m.default || m)
